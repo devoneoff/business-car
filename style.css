@@ -1,0 +1,497 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: "OpenSans";
+    src: url("fonts/OpenSans-Regular.ttf");
+}
+body {
+    font-family: "OpenSans";
+    background-color: #333;
+}
+#page {
+    background-color: #F1EDED;
+    border-radius: 0 0 30px 30px;
+}
+.white-text {
+    color: #fff;
+}
+.flex {
+    display: flex;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+.c3 {
+    color: #333;
+}
+.content-center {
+    justify-content: center;
+}
+.content-left {
+    justify-content: left;
+}
+.space-between {
+    justify-content: space-between;
+}
+.pointer:hover {
+    cursor: pointer;
+}
+.center {
+    text-align: center;
+}
+
+/*------------------------------------------*/
+
+.sh1 {
+    background-color: #333;
+}
+.sh1-in {
+    height: 50px;
+    width: 1310px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.one-sh1 {
+    width: 45%;
+    justify-content: space-between;
+}
+.points-sh1 {
+    margin: 10px;
+}
+.point-sh1 {
+    margin: 2px;
+}
+.img-top-menu, .img-sh2 {
+    width: 16px;
+    height: 16px;
+}
+.number {
+    font-size: 14px;
+    text-align: center;
+    padding-top: 5px;
+}
+.dilers {
+    background-color: #75787B;
+    width: 240px;
+    height: 30px;
+    font-size: 14px;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 10px;
+    margin: 5px;
+}
+.lc {
+    justify-content: right;
+    font-size: 14px;
+    padding-top: 15px;
+}
+
+.sh2 {
+    background-color: #F1EDED;
+    border-radius: 30px 30px 0 0;
+    border-bottom: 1px solid rgb(117, 120, 123, 0.2);
+}
+.sh2-in {
+    justify-content: space-between;
+    width: 1300px;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+.logo {
+    width: 150px;
+    margin: 10px;
+}
+.point-sh2 {
+    font-size: 16px;
+    margin: 10px;
+}
+.img-point-sh2 {
+    margin: 10px;
+}
+.text-menu {
+    padding-top: 17px;
+}
+
+.main-block {
+    width: 1300px;
+    margin: 0 auto;
+}
+#block-main-info {
+    display: flex;
+    width: 1300px;
+}
+.main {
+    width: 1200px;
+    margin: 0 auto;
+}
+.sled {
+    display: flex;
+}
+.text-sled {
+    font-size: 13px;
+    color: #5F5D5D;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.text-sled-dark {
+    font-size: 13px;
+    color: #333;
+}
+
+.main-text {
+    width: 1300px;
+}
+.title-page {
+    width: 1260px;
+    height: 250px;
+    justify-content: space-between;
+}
+.col-main-text {
+    width: 500px;
+}
+.col-img-main-text {
+    width: 630px;
+    height: 250px;
+    justify-content: right;
+}
+.img_main_page {
+    width: 630px;
+    height: 250px;
+    border-radius: 30px;
+}
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.under-title {
+    width: 880px;
+    margin: 20px;
+    color: #333;
+    margin-left: 40px;
+}
+
+/*Калькулятор и форма заявки*/
+.calculator_and_form {
+    background-color: #fff;
+    border-radius: 30px;
+    margin: 40px;
+    padding-bottom: 40px;
+}
+.calculator {
+    padding-bottom: 30px;
+}
+.block-form {
+    width: 600px;
+    margin: 25px;
+}
+.title-form {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+}
+.point-form {
+    margin: 10px;
+    margin-top: 30px;
+}
+.under-title-form {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+    margin-top: 15px;
+}
+.row-input {
+    text-align: center;
+    margin: 10px;
+}
+.input {
+    border: 3px solid #333;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 7px;
+}
+.cost-arenda {
+    justify-content: space-between;
+    font-size: 20px;
+}
+.select-auto {
+    width: 480px;
+    text-align: center;
+}
+.select-auto option {
+    background-color: rgb(117, 120, 123, 0.1);
+}
+.inputs-dates {
+    justify-content: space-around;
+    width: 580px;
+}
+.input-date {
+    text-align: center;
+    width: 170px;
+}
+.button {
+    width: 580px;
+    margin-top: 20px;
+    text-align: center;
+}
+.btn-submit {
+    background-color: #333;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    width: 490px;
+    height: 40px;
+}
+.btn-submit:hover {
+    background-color: rgb(117, 120, 123, 0.95);
+    cursor: pointer;
+}
+
+.pokazatel {
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+.title-pokazatel {
+    font-size: 18px;
+}
+.cost-pokazatel {
+    font-size: 18px;
+}
+.form {
+    border-top: 1px solid rgb(117, 120, 123, 0.3);
+}
+.for-arenda {
+    margin-top: 40px;
+}
+.contact-info {
+    width: 600px;
+    margin: 25px;
+}
+.contact-pole {
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.input-address {
+    width: 260px;
+    padding-left: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 15px;
+}
+.input-address::placeholder {
+    padding: 10px;
+    color:rgb(117, 120, 123, 0.95);
+}
+.name-point {
+    margin-top: 5px;
+}
+.input-contact {
+    width: 350px;
+    padding-left: 20px;
+    color: #333;
+}
+.under-text-contact {
+    font-size: 11px;
+    margin: 10px;
+}
+.un-text-con-2 {
+    margin-left: 40px;
+}
+.button-send {
+    text-align: center;
+}
+.pole-add-dates {
+    justify-content: space-around;
+}
+.date12 {
+    text-align: center;
+    color: #333;
+}
+.agree {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.agree input {
+    margin-right: 15px;
+}
+
+
+
+
+.sticky {
+    position: sticky;
+    top: 0;
+}
+.scroll-target {
+    height: 1450px;
+    background-color: #F1EDED;
+    border-radius: 0 0 30px 30px;
+}
+
+/*Футер*/
+#foot {
+    background-color: #333;
+    border-radius: 0 0 30px 30px;
+    border: 1px solid rgb(117, 120, 123, 0.3);
+}
+#footer {
+    display: flex;
+    padding: 10px;
+    width: 1300px;
+    margin: 0 auto;
+    background-color: #333;
+    border-radius: 0 0 30px 30px;
+    padding-bottom: 40px;
+}
+.col-footer-1 {
+    width: 500px;
+}
+.title-app-store {
+    color: rgb(168, 169, 170);
+    font-size: 13px;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.app-store {
+    width: 150px;
+}
+.title-social {
+    color: rgb(168, 169, 170);
+    font-size: 13px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.icons-social {
+    margin-left: 20px;
+}
+.img-social {
+    width: 30px;
+    margin-right: 14px;
+}
+.col-footer-2 {
+    width: 1020px;
+}
+.point-footer {
+    margin: 5px;
+    width: 200px;
+}
+#two-row-col-footer {
+    padding-top: 50px;
+    margin-left: 100px;
+}
+.title-col-footer {
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+.text-col-footer {
+    color: #949494;
+    font-size: 13px;
+}
+.point-col-footer {
+    margin-top: 10px;
+}
+.pole-row-footer {
+    width: 200px;
+}
+.column-footer {
+    margin-right: 92px;
+}
+.down {
+    margin-top: 30px;
+}
+.link-primary:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.link-secondary:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #F1EDED;
+}
+.service {
+    margin-top: 10px;
+}
+.col-footer-3 {
+    width: 250px;
+}
+.btn-call {
+    background-color: #F1EDED;
+    color: #333;
+    width: 190px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+}
+.cards {
+    background-color: #F1EDED;
+    width: 40px;
+    height: 25px;
+    margin: 5px;
+    text-align: center;
+}
+.img-cards {
+    width: 20px;
+}
+
+.under-footer {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.left {
+    color: #949494;
+    width: 20%;
+    margin-left: 40px;
+    font-size: 14px;
+}
+.right {
+    color: #949494;
+    width: 13%;
+    margin-left: 40px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.underfoot-text-center {
+    color: #949494;
+    text-align: center;
+    font-size: 12px;
+    width: 55%;
+    margin-top: 35px;
+}
+
+#call {
+    background-color: red;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    position: fixed;
+    margin-left: 1250px;
+    margin-top: 450px;
+    transition: 0.2s;
+}
+#call:hover {
+    transform: scale(1.08);
+    cursor: pointer;
+}
+.img-phone-call {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+}

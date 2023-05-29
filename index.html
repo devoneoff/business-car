@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Аренда - Автомобили с пробегом | БИЗНЕС КАР</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/logo-black.ico" type="image/x-icon">
+</head>
+<body>
+    
+
+    <!--МЕНЮ-->
+    <div id="shapka">
+        <div class="sh1">
+            <div class="sh1-in flex">
+                <div class="one-sh1 flex">
+                    <div class="points-sh1 flex pointer">
+                        <div class="point-sh1">
+                            <img class="img-top-menu" src="img/location.png" alt="">
+                        </div>
+                        <div class="point-sh1 white-text">Москва</div>
+                        <div class="point-sh1">
+                            <img class="img-top-menu" src="img/down-arrow.png" alt="">
+                        </div>
+                    </div>
+                    <div class="points-sh1 number white-text">+7 (495) 846-67-26</div>
+                    <div class="dilers white-text pointer">42 дилерских центра в России</div>
+                </div>
+                <div class="two-sh1 lc flex pointer">
+                    <div class="point-sh1" style="margin-right: 10px;">
+                        <img class="img-top-menu" src="img/user.png" alt="">
+                    </div>
+                    <div class="point-sh1 white-text">Личный кабинет</div>
+                </div>
+            </div>
+        </div>
+        <div class="sh2">
+            <div class="sh2-in flex">
+                <div class="logo">
+                    <img class="logo" src="img/logotip.png" alt="">
+                </div>
+                <div class="text-menu flex">
+                    <div class='point-sh2 color333'>Новые авто</div>
+                    <div class='point-sh2 color333'>Авто с пробегом</div>
+                    <div class='point-sh2 color333'>Сервис</div>
+                    <div class='point-sh2 color333'>Спецпредложения</div>
+                    <div class='point-sh2 color333'>Услуги</div>
+                    <div class='point-sh2 color333'>О компании</div>
+                    <div class='point-sh2 color333'>Блог</div>
+                    <div class='point-sh2 color333'>Контакты</div>
+                    <div class='point-sh2 color333'><img class="img-sh2" src="img/search.png" alt=""></div>
+                </div>
+                <div class="text-menu flex">
+                    <div class='img-point-sh2'><img class="img-sh2" src="img/heart.png" alt=""></div>
+                    <div class='img-point-sh2'><img class="img-sh2" src="img/static.png" alt=""></div>
+                    <div class='img-point-sh2'><img class="img-sh2" src="img/view.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--ОСНОВНОЙ БЛОК-->
+    <div id="page">
+        <div class="main-block">
+            <!--Основной блок с информацией-->
+            <div id="block-main-info">
+                <div class="scroll-target">
+                    <div class="main" id="main">
+                        <div class="sled">
+                            <div class="text-sled">Главная</div>
+                            <div class="text-sled">Услуги</div>
+                            <div class="text-sled">Основные</div>
+                            <div class="text-sled text-sled-dark">Аренда автомобилей в БИЗНЕС КАР</div>
+                        </div>
+                        <div class="main-text">
+                            <div class="flex title-page">
+                                <div class="col-main-text">
+                                    <div class="title">Аренда автомобилей <br> в БИЗНЕС КАР</div>
+                                    <div class="under-title">Вы можете арендовать 1 или несколько автомобилей со сроком аренды <br> от  3 месяцев и разным набором услуг. <br> Автомобиль может быть закуплен специально для Вас или предоставлен <br> из нашего автопарка.</div>
+                                </div>
+                                <div class="col-img-main-text">
+                                    <img class='img_main_page' src="img/img_main_page.jpg" alt="">
+                                </div>
+                            </div>                            
+
+                            <!--Форма калькулятора и заявки-->
+                            <div class="calculator_and_form">
+                                <div class="calculator flex">
+                                    <!--Форма для расчёта показателей-->
+                                    <form action="index.php">
+                                        <div class="block-form form-calcul">
+                                            <div class="title-form c3">Калькулятор затрат</div>
+                                            <div class="point-form">
+                                                <div class="under-title-form c3">Выберите автомобиль</div>
+                                                <div class="row-input">
+                                                    <select name="auto" id="auto" class="input select-auto c3">
+                                                        <option value="audi_a6">Audi A6</option>
+                                                        <option value="bmw_3_serii">BMW 3 серии</option>
+                                                        <option value="chery_tiggo_3_pro">Chery Tiggo 5</option>
+                                                        <option value="genesis_g70">Genesis G70</option>
+                                                        <option value="ford_focus">Ford Focus</option>
+                                                        <option value="kia_k5">Kia K5</option>
+                                                        <option value="toyota_camry">Toyota Camry</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="point-form">
+                                                <div class="under-title-form c3">Выберите даты получения и возврата автомобиля</div>
+                                                <div class="inputs-dates flex">
+                                                    <div class="div-input-date"><input type="date" class="input input-date c3" name="date1" id="date1" value="2023-05-12"></div>
+                                                    <div class="div-input-date"><input type="date" class="input input-date c3" name="date2" id="date2" value="2023-05-25"></div>
+                                                </div>
+                                            </div>
+                                            <div class="point-form">
+                                                <div class="button">
+                                                    <input type="submit" class="btn-submit" value="Рассчитать">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                    <div class="block-form form-raschet">
+                                        <div class="title-form c3">Стоимость аренды Genesis G70</div>
+                                        <div>
+                                            <div class="point-form flex cost-arenda c3">
+                                                <div>Ежемесячный платёж с НДС</div>
+                                                <div>132500 ₽</div>
+                                            </div>
+                                            <div class="point-form flex cost-arenda c3">
+                                                <div>Страхование КАСКО и ОСАГО</div>
+                                                <div>25500 ₽</div>
+                                            </div>
+                                            <div class="point-form flex cost-arenda c3">
+                                                <div>ТО и ремонт</div>
+                                                <div>10500 ₽</div>
+                                            </div>
+                                            <div class="point-form flex cost-arenda c3">
+                                                <div>Шины и шинный сервис</div>
+                                                <div>2000 ₽</div>
+                                            </div>
+                                            <div class="point-form flex cost-arenda c3">
+                                                <div><b>Шины и шинный сервис</b></div>
+                                                <div><b>170500 ₽</b></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                                                
+                                <!--Форма со всеми данными для оформления заявки-->
+                                <div class="form">
+                                    <div class="title-form for-arenda c3">Чтобы отправить заявку на аренду автомобиля, <br> заполните форму:</div>
+                                    <form action="index.php" method="get">
+                                        <div class="all-contact-info flex">
+                                            <div class="contact-info person-info">
+                                                <div class="point-form">
+                                                    <div class="under-title-form c3">Контактная информация</div>
+                                                </div>
+                                                <div class="point-form flex space-between">
+                                                    <div class="name-point">Имя</div>
+                                                    <div class="input-point">
+                                                        <input type="text" name="name_user" id="name" class="input c3 input-contact" placeholder="Иван">
+                                                    </div>
+                                                </div>
+                                                <div class="point-form flex contact-pole">
+                                                    <div class="name-point">Фамилия</div>
+                                                    <div class="input-point">
+                                                        <input type="text" name="surname_user" id="surname" class="input c3 input-contact" placeholder="Петров">
+                                                    </div>
+                                                </div>
+                                                <div class="point-form flex contact-pole">
+                                                    <div class="name-point">Номер телефона</div>
+                                                    <div class="input-point">
+                                                        <input type="number" name="phone_user" id="phone" class="input c3 input-contact" placeholder="+7">
+                                                    </div>
+                                                </div>
+                                                <div class="point-form flex contact-pole">
+                                                    <div class="name-point">E-mail</div>
+                                                    <div class="input-point">
+                                                        <input type="email" name="email_user" id="email" class="input c3 input-contact" placeholder="ivan-petrov@ivan.petrov">
+                                                    </div>
+                                                </div>
+                                                <div class="under-text-contact c3">
+                                                    Контактная информация необходима для с связи с вами, а также для составления договора аренды.
+                                                </div>
+                                            </div>
+                                            <div class="contact-info address-info">
+                                                <div class="point-form">
+                                                    <div class="under-title-form c3">Желаемый автомобиль</div>
+                                                    <div class="row-input">
+                                                        <select name="auto_user" id="auto" class="input select-auto c3">
+                                                            <option value="audi_a6">Audi A6</option>
+                                                            <option value="bmw_3_serii">BMW 3 серии</option>
+                                                            <option value="chery_tiggo_3_pro">Chery Tiggo 5</option>
+                                                            <option value="genesis_g70">Genesis G70</option>
+                                                            <option value="ford_focus">Ford Focus</option>
+                                                            <option value="kia_k5">Kia K5</option>
+                                                            <option value="toyota_camry">Toyota Camry</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="point-form">
+                                                    <div class="under-title-form c3">Где и когда Вы желаете получить автомобиль?</div>
+                                                    <div class="row-input flex pole-add-dates">
+                                                        <input type="text" name="address_to" id="address-to" class="input input-address c3" placeholder="Адрес, по которому доставить">
+                                                        <input type="date" class='input date12' name="date11" id ="">
+                                                    </div>
+                                                </div>
+                                                <div class="point-form">
+                                                    <div class="under-title-form c3">Где и когда Вы желаете оставить автомобиль?</div>
+                                                    <div class="row-input flex pole-add-dates">
+                                                        <input type="text" name="address_from" id="address-from" class="input input-address c3" placeholder="Адрес, по которому нам забрать">
+                                                        <input type="date" class='input date12' name="date22" id ="">
+                                                    </div>
+                                                </div>
+                                                <div class="under-text-contact un-text-con-2 c3">
+                                                    Вы можете указать любой адрес, выбрать удобное место. Наш сотрудник доставит автомобиль по указанному адресу и также заберёт его. Адрес получения и возврата могут быть разными.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="agree c3">
+                                            <input type="checkbox" name="check_agree" value="Согласен(на)" id=""> Даю согласие на обработку своих персональных данных и соглашаюсь с политикой обработки персональных данных.
+                                        </div>
+                                        <div class="button-send">
+                                            <input type="submit" class="btn-submit" value="Отправить заявку">
+                                        </div>   
+                                    </form>
+                                    <?php
+                                        $name_user = $_GET['name_user'];
+                                        $surname_user = $_GET['surname_user'];
+                                        $phone_user = $_GET['phone_user'];
+                                        $email_user = $_GET['email_user'];
+                                        $auto_user = $_GET['auto_user'];
+                                        $address_to = $_GET['address_to'];
+                                        $date11 = $_GET['date11'];
+                                        $address_from = $_GET['address_from'];
+                                        $date22 = $_GET['date22'];
+                                        $check_agree = $_GET['check_agree'];
+                                        
+                                        $zapros2 = "SELECT mark_and_model FROM automobilies WHERE name_auto ='$auto_user'";
+                                        $result2 = mysqli_query($podkl, $zapros2);
+                                        while ($stroka = mysqli_fetch_assoc($result2)) {
+                                            $automobile = $stroka['mark_and_model'];
+                                        }
+                                        $zapros3 = "INSERT INTO `zayavki`(`name_user`, `surname_user`, `phone_user`, `email_user`, `auto_to_user`, `address_to`, `date_to`, `address_from`, `date_from`, `agree`) VALUES ('$name_user','$surname_user',$phone_user,'$email_user','$auto_user','$address_to','$date11','$address_from','$date22','$check_agree');";
+                                        $result3 = mysqli_query($podkl, $zapros3);
+                                        
+                                    ?>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                
+                <div id="call">
+                    <img class="img-phone-call" src="img/phone-call.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="foot">
+        <div id="footer">
+            <!--Download app and social-->
+            <div class="col-footer-1 column">
+                <div>
+                    <img class="logo" src="img/logotip white.png" alt="">
+                </div>
+                <div>
+                    <div class="title-app-store">Мобильное приложение</div>
+                    <div class="flex">
+                        <div><img class="app-store pointer" src="img/app_store.png" alt=""></div>
+                        <div><img class="app-store pointer" src="img/google play.png" alt=""></div>
+                    </div>
+                </div>
+                <div id="social">
+                    <div class="title-social">Мы в соц сетях:</div>
+                    <div class="flex icons-social">
+                        <div><img class="img-social pointer" src="img/vk.png" alt=""></div>
+                        <div><img class="img-social pointer" src="img/telegram.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Service-->
+            <div class="col-footer-2 column">
+                <div class="flex" style="margin-top: 30px;">
+                    <div>
+                        <div class="flex point-footer" style="cursor: pointer;">
+                            <div class="point-sh1">
+                                <img class="img-top-menu" src="img/location.png" alt="">
+                            </div>
+                            <div class="point-sh1 white-text" style="font-size: 12px;">Москва</div>
+                            <div class="point-sh1">
+                                <img class="img-top-menu" src="img/down-arrow.png" alt="">
+                            </div>
+                        </div>
+                        <div class="white-text pointer" style="font-size: 14px; margin-top: -7px;">+7 (495) 445-41-26</div>
+                    </div>
+                    <div class="two-col-footer">
+                        <div class="white-text point-footer" style="font-size: 12px;">Время работы:</div>
+                        <div class="white-text point-footer" style="font-size: 14px;">08:00-21:00 Ежедневно</div>
+                    </div>  
+                </div>
+                <div class="flex">
+                    <div class="column-footer">
+                        <div class="point-col-footer title-col-footer">Автомобили</div>
+                        <div class="point-col-footer text-col-footer link-secondary">Новые автомобили</div>
+                        <div class="point-col-footer text-col-footer link-secondary">Авто с пробегом</div>
+
+                        <div class="point-col-footer title-col-footer down link-primary">Акции</div>
+                        <div class="point-col-footer title-col-footer link-primary">Контакты</div>
+                        <div class="point-col-footer title-col-footer link-primary">О компании</div>
+                    </div>
+                    <div class="column-footer">
+                        <div class="title-col-footer service">Услуги</div>
+                        <div class="point-col-footer text-col-footer link-secondary">Кредитование</div>
+                        <div class="point-col-footer text-col-footer link-secondary">Страхование</div>
+                        <div class="point-col-footer text-col-footer link-secondary">Trade-in</div>
+                        <div class="point-col-footer text-col-footer link-secondary">Тест-драйв</div>
+                        <div class="point-col-footer text-col-footer link-secondary">Аренда</div>
+                        <div class="point-col-footer text-col-footer link-secondary">Онлайн-оценка <br> автомобиля</div>
+                        <div class="point-col-footer text-col-footer link-secondary">Выездная оценка</div>
+                        <div class="point-col-footer text-col-footer link-secondary">Выкуп авто</div>
+                        <div class="point-col-footer text-col-footer link-secondary">Комиссионная продажа</div>
+                        <div class="point-col-footer text-col-footer link-secondary">Автоподбор автомобилей <br> с пробегом</div>
+                        <div class="point-col-footer text-col-footer link-secondary">Онлайн-аукционы <br> автомобилей с пробегом</div>
+                        <div class="point-col-footer text-col-footer link-secondary">Лизинг</div>
+                        <div class="point-col-footer text-col-footer link-secondary">Diplomatic sales</div>
+                        <div class="point-col-footer text-col-footer link-secondary">Корпоративные продажи</div>
+                        <div class="point-col-footer text-col-footer link-secondary">Обслуживание <br> корпоративных парков</div>
+                    </div>
+                    <div class="column-footer">
+                        <div class="point-col-footer title-col-footer service">О компании</div> 
+                        <div class="point-col-footer text-col-footer link-secondary">История компании</div>
+                        <div class="point-col-footer text-col-footer link-secondary">Toyota Tsusho Corporation</div>
+                        <div class="point-col-footer text-col-footer link-secondary">Структура</div>
+                        <div class="point-col-footer text-col-footer link-secondary">Спорт</div>
+                        <div class="point-col-footer text-col-footer link-secondary">Награды</div>
+                        <div class="point-col-footer text-col-footer link-secondary">Миссия и ценности</div>
+                        <div class="point-col-footer text-col-footer link-secondary">Благотворительность</div>
+                        <div class="point-col-footer text-col-footer link-secondary">Экологическая политика</div>
+                        <div class="point-col-footer text-col-footer link-secondary">Поставщикам</div>
+                        <div class="point-col-footer text-col-footer link-secondary">Противодействие коррупции</div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Call and cards-->
+            <div class="col-footer-3">
+                <div style="margin-top: 30px;">
+                    <input type="submit" class="btn-call pointer" value="ОБРАТНЫЙ ЗВОНОК">
+                </div>
+                <div>
+                    <div class="text-col-footer" style="font-size: 12px; margin-top: 20px;">Принимаем к оплате:</div>
+                    <div class="flex">
+                        <div class="cards pointer"><img class="img-cards" src="img/visa.png" alt=""></div>
+                        <div class="cards pointer"><img class="img-cards" src="img/mastercard.png" alt=""></div>
+                        <div class="cards pointer"><img class="img-cards" src="img/mir.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="underfoot">
+        <div class="under-footer flex">
+            <div class="left">
+                ГК "БИЗНЕС КАР" 2023 <br>
+                Юридическая информация <br>
+                Москва, Балаклавский пр-т, 26 <br>
+                ИНН: 7705040943 <br>
+                ОГРН: 1027739501701
+            </div>
+            <div class="underfoot-text-center">Предложения, указанные на данном сайте, носят рекламно-информационный характер и не являются <br> публичной офертой, в соответствии со ст.437 ГК РФ.</div>
+            <div class="right">
+                <div>Разработано в <b>100UP</b></div>
+                <div class="link-secondary">Нашли ошибку на сайте?</div>
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
